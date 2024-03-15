@@ -25,4 +25,5 @@ yarn-error.log*
 # Hide my personal information
 src/assets/ME.png 
 src/assets/Resume1.pdf
+src/components/home/Social.jsx
 
