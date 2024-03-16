@@ -1,59 +1,21 @@
 import React from 'react'
+import { ReactComponent as WavingHandEmoji } from '../../assets/hand1.svg'
+
+
 
 const Data = () => {
   return (
     <div className="home__data">
         <h1 className="home__title">
-            Kim Magidhi
-            <svg
-                    width="36"
-                    height="36"
-                    viewBox="0 0 48 48"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                    class="home__hand"
-                >
-                    <path
-                        d="M25.4995 32.0305L31.3495 33.1555L36.1495 8.48051C36.4495 6.83051 35.3995 5.18051
-                        33.82454.88051C32.1745 4.58051 30.5995 5.70551 30.2995 7.35551L25.4995 32.0305Z"
-                        fill='#FFDD67'
-                    ></path>
-                    <path
-                        d="M33.8996 4.88018C33.6746 4.80518 33.5246 4.80518 33.2996 4.80518C34.6496 5.33018
-                        35.3996 6.75518 35.0996 8.25518L30.2996 32.9302L31.3496 33.1552L36.1496 8.48018C36.5246
-                        6.75518 35.4746 5.18018 33.8996 4.88018Z"
-                        fill="#EBA352"
-                    ></path>
-                    <path
-                        d="M19.4995 32.7802H26.5495V5. 55518C26.5495 3.53018 24.9745 1.80518 23.0245 1.80518021.1495
-                        1.80518 19.4995 3.45518 19.4995 5.55518V32.7802Z"
-                        fill='#FFDD67'
-                    ></path>
-                    <path
-                        d="23.0995 1.80518C22.9495 1.80518 22.7245 1.80518 22.5745 1.88018C24.2995
-                        2.18018 25.5745 3.68018 25.5745 5.55518V32.8552H26.6245V5.55518C26.6245
-                        3.45518 25.0495 1.80518 23.0995 1.80518Z"
-                        fill="#EBA352"
-                    ></path>
-                    <path
-                        d="M15.7495 32.7054L21.7495 31.1304L15.2245 6.30541C14.7745 4.58041 13.0495 3.53041 
-                        11.3995 3.90541C9.74948 4.35541 8.77448 6.08041 9.22448 7.80541L15.7495 32.7054Z"
-                        fill="#FFDD67"
-                    ></path>
-                    <path
-                        d="M11.3995 3.90541L10.9495 4.13041C12.4495 4.05541 13.7995 5.03041 14.2495 
-                        6.60541L20.7745 31.4304L21.8245 31.1304L15.2245 6.30541C14.7745 
-                        4.58041 13.0495 3.53041 11.3995 3.905412"
-                        fill="#EBA352"
-                    ></path>
-                    <path
-                        d="M2.99937 10. 355C1.57437 11.03 1.12437 12.83 1.87437 14.33L11.7744 34.055L16.7994 
-                        31.505L6.89937 11.78C6.14937 10.28 4.42437 9.68 2.99937 10.355Z"
-                        fill="#FFDD67"
-                    ></path>
-    
-            </svg>
+            Kim Magidhi              
+            <WavingHandEmoji />
         </h1>
+        <h3 className="home__subtitle"> Software Developer </h3>
+        <p className="home__description">I'm an aspiring Software Developer aiming to excel 
+        as a Full Stack Developer. I'm committed to mastering both frontend and backend skills 
+        to create impactful software solutions efficiently.</p>
+
+        <a href="#contact" className="button button--flex">Say HelloHello🙋🏽‍♂️</a>
     </div>
   )
 }
