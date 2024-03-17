@@ -166,7 +166,7 @@ img {
 }
 
 .button--flex {
-  display: flex;
+  display: inline-flex;
   align-items: center;
 }
 
