@@ -26,4 +26,5 @@ yarn-error.log*
 src/assets/ME.png 
 src/assets/Resume1.pdf
 src/components/home/Social.jsx
+src/components/about/About.jsx
 
